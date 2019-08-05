@@ -16,6 +16,8 @@
 		B62148F722F7FD420011E8BE /* iOSCoreAnimationAdvancedTechniquesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B62148F622F7FD420011E8BE /* iOSCoreAnimationAdvancedTechniquesTests.m */; };
 		B621490222F7FD420011E8BE /* iOSCoreAnimationAdvancedTechniquesUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B621490122F7FD420011E8BE /* iOSCoreAnimationAdvancedTechniquesUITests.m */; };
 		B621491322F8049C0011E8BE /* Test1_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B621491222F8049C0011E8BE /* Test1_ViewController.m */; };
+		B621491622F83BF90011E8BE /* Test2_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B621491522F83BF90011E8BE /* Test2_ViewController.m */; };
+		B621491922F83DCE0011E8BE /* Snowman.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B621491822F83DCE0011E8BE /* Snowman.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,9 @@
 		B621490322F7FD420011E8BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B621491122F8049C0011E8BE /* Test1_ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test1_ViewController.h; sourceTree = "<group>"; };
 		B621491222F8049C0011E8BE /* Test1_ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test1_ViewController.m; sourceTree = "<group>"; };
+		B621491422F83BF80011E8BE /* Test2_ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test2_ViewController.h; sourceTree = "<group>"; };
+		B621491522F83BF90011E8BE /* Test2_ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test2_ViewController.m; sourceTree = "<group>"; };
+		B621491822F83DCE0011E8BE /* Snowman.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Snowman.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,12 +109,15 @@
 		B62148DC22F7FD400011E8BE /* iOSCoreAnimationAdvancedTechniques */ = {
 			isa = PBXGroup;
 			children = (
+				B621491722F83DAE0011E8BE /* Resources */,
 				B62148DD22F7FD400011E8BE /* AppDelegate.h */,
 				B62148DE22F7FD400011E8BE /* AppDelegate.m */,
 				B62148E022F7FD400011E8BE /* ViewController.h */,
 				B62148E122F7FD400011E8BE /* ViewController.m */,
 				B621491122F8049C0011E8BE /* Test1_ViewController.h */,
 				B621491222F8049C0011E8BE /* Test1_ViewController.m */,
+				B621491422F83BF80011E8BE /* Test2_ViewController.h */,
+				B621491522F83BF90011E8BE /* Test2_ViewController.m */,
 				B62148E322F7FD400011E8BE /* Main.storyboard */,
 				B62148E622F7FD420011E8BE /* Assets.xcassets */,
 				B62148E822F7FD420011E8BE /* LaunchScreen.storyboard */,
@@ -135,6 +143,14 @@
 				B621490322F7FD420011E8BE /* Info.plist */,
 			);
 			path = iOSCoreAnimationAdvancedTechniquesUITests;
+			sourceTree = "<group>";
+		};
+		B621491722F83DAE0011E8BE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B621491822F83DCE0011E8BE /* Snowman.jpeg */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,6 +259,7 @@
 				B62148EA22F7FD420011E8BE /* LaunchScreen.storyboard in Resources */,
 				B62148E722F7FD420011E8BE /* Assets.xcassets in Resources */,
 				B62148E522F7FD400011E8BE /* Main.storyboard in Resources */,
+				B621491922F83DCE0011E8BE /* Snowman.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +287,7 @@
 				B621491322F8049C0011E8BE /* Test1_ViewController.m in Sources */,
 				B62148E222F7FD400011E8BE /* ViewController.m in Sources */,
 				B62148ED22F7FD420011E8BE /* main.m in Sources */,
+				B621491622F83BF90011E8BE /* Test2_ViewController.m in Sources */,
 				B62148DF22F7FD400011E8BE /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
