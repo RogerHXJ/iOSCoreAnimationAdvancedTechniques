@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "Test1_ViewController.h"
 #import "Test2_ViewController.h"
+#import "Test3_ViewController.h"
 
 @interface ViewController ()<UITableViewDelegate, UITableViewDataSource>
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
@@ -21,7 +22,7 @@ static NSString *cellReuseID = @"UITableViewCell";
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.chapterTitles = @[@"图层树", @"寄宿图"];
+    self.chapterTitles = @[@"图层树", @"寄宿图", @"视觉效果"];
     [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:cellReuseID];
 }
 
@@ -42,6 +43,8 @@ static NSString *cellReuseID = @"UITableViewCell";
         vc = [[Test1_ViewController alloc] init];
     } else if ([title isEqualToString:@"寄宿图"]) {
         vc = [[Test2_ViewController alloc] init];
+    } else if ([title isEqualToString:@"视觉效果"]) {
+        vc = [[Test3_ViewController alloc] init];
     }
     [self.navigationController pushViewController:vc animated:YES];
 }

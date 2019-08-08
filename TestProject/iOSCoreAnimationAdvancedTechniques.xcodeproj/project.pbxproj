@@ -18,6 +18,8 @@
 		B621491322F8049C0011E8BE /* Test1_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B621491222F8049C0011E8BE /* Test1_ViewController.m */; };
 		B621491622F83BF90011E8BE /* Test2_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B621491522F83BF90011E8BE /* Test2_ViewController.m */; };
 		B621491922F83DCE0011E8BE /* Snowman.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B621491822F83DCE0011E8BE /* Snowman.jpeg */; };
+		B6FE881B22F924340055A567 /* Test3_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6FE881922F924340055A567 /* Test3_ViewController.m */; };
+		B6FE881C22F924340055A567 /* Test3_ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6FE881A22F924340055A567 /* Test3_ViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +61,9 @@
 		B621491422F83BF80011E8BE /* Test2_ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test2_ViewController.h; sourceTree = "<group>"; };
 		B621491522F83BF90011E8BE /* Test2_ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test2_ViewController.m; sourceTree = "<group>"; };
 		B621491822F83DCE0011E8BE /* Snowman.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Snowman.jpeg; sourceTree = "<group>"; };
+		B6FE881822F924340055A567 /* Test3_ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test3_ViewController.h; sourceTree = "<group>"; };
+		B6FE881922F924340055A567 /* Test3_ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test3_ViewController.m; sourceTree = "<group>"; };
+		B6FE881A22F924340055A567 /* Test3_ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Test3_ViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +123,9 @@
 				B621491222F8049C0011E8BE /* Test1_ViewController.m */,
 				B621491422F83BF80011E8BE /* Test2_ViewController.h */,
 				B621491522F83BF90011E8BE /* Test2_ViewController.m */,
+				B6FE881822F924340055A567 /* Test3_ViewController.h */,
+				B6FE881922F924340055A567 /* Test3_ViewController.m */,
+				B6FE881A22F924340055A567 /* Test3_ViewController.xib */,
 				B62148E322F7FD400011E8BE /* Main.storyboard */,
 				B62148E622F7FD420011E8BE /* Assets.xcassets */,
 				B62148E822F7FD420011E8BE /* LaunchScreen.storyboard */,
@@ -259,6 +267,7 @@
 				B62148EA22F7FD420011E8BE /* LaunchScreen.storyboard in Resources */,
 				B62148E722F7FD420011E8BE /* Assets.xcassets in Resources */,
 				B62148E522F7FD400011E8BE /* Main.storyboard in Resources */,
+				B6FE881C22F924340055A567 /* Test3_ViewController.xib in Resources */,
 				B621491922F83DCE0011E8BE /* Snowman.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,6 +297,7 @@
 				B62148E222F7FD400011E8BE /* ViewController.m in Sources */,
 				B62148ED22F7FD420011E8BE /* main.m in Sources */,
 				B621491622F83BF90011E8BE /* Test2_ViewController.m in Sources */,
+				B6FE881B22F924340055A567 /* Test3_ViewController.m in Sources */,
 				B62148DF22F7FD400011E8BE /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
